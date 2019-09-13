@@ -24,15 +24,25 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+   React JS is a library that tries to solve large application innefficiency through components, jsx syntax, and virtual DOM smart manipulation.
 
-- [ ] Describe state.
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+   Thinking in react is combining structure, function, and possibly styling into a single entity to create a larger application that reacts to changes in state, compares virtual DOM to actual DOM, and makes only necessary changes.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [x] Describe state.
+
+   State is the current data or configuration the function/app uses to determine virtual DOM output. The application reacts to changes in state.
+
+- [x] Describe props.
+
+   Props are read-only data passed from parent to child component. This allows children to react to parent state, call a parent function, or differenciate properties of children built from the same component definition.
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+   Side effects are things outside function scope (timers, requesting data, anything asyncronous or reliant on changing data). Effects are synced to state or prop changes by declaring them in a list of dependencies (as the 2nd argument in the React.useEffect method).
 
 ## Project Set Up
 
